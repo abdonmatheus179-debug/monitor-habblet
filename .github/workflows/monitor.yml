@@ -1,0 +1,45 @@
+name: Monitor do hotel
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # a cada 5 minutos
+  workflow_dispatch:         # botão "Run workflow" para testar na hora
+
+permissions:
+  contents: write
+
+concurrency:
+  group: monitor
+  cancel-in-progress: false
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Pegar o status anterior
+        run: |
+          if git fetch --depth=1 origin status 2>/dev/null; then
+            git show FETCH_HEAD:status.json > status.json || true
+          fi
+
+      - name: Verificar o hotel
+        run: node verificar.js
+
+      - name: Salvar o status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/pub && cp status.json /tmp/pub/
+          cd /tmp/pub
+          git init -q -b status
+          git config user.name "monitor-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add status.json
+          git commit -qm "status"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" status
