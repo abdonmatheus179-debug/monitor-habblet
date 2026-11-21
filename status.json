@@ -1,0 +1,109 @@
+{
+  "url": "https://www.habblet.city/",
+  "status": "manutencao",
+  "motivo": "Fora do ar (HTTP 403)",
+  "verificadoEm": "2026-11-21T15:28:41.782Z",
+  "voltouEm": null,
+  "historico": [
+    {
+      "hora": "2026-11-21T15:28:41.782Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T14:45:32.461Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T13:58:19.342Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T13:02:12.349Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T12:10:04.863Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T11:25:49.567Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T10:38:22.987Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T09:54:36.072Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T09:10:15.434Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T08:23:44.653Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T07:19:03.598Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T06:10:50.697Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T05:15:36.668Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T04:17:40.967Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T03:21:48.685Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T02:32:05.176Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T01:40:00.309Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-21T00:21:20.085Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-20T23:31:34.537Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    },
+    {
+      "hora": "2026-11-20T22:50:58.663Z",
+      "noAr": false,
+      "motivo": "Fora do ar (HTTP 403)"
+    }
+  ]
+}
